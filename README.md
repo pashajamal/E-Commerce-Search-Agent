@@ -6,7 +6,6 @@ Once you hit submit, an AI agent goes and searches those stores for you and brin
 
 What it does
 
-
 . You type a search query and choose one or more stores
 . An AI agent searches those stores for matching products
 . Results show up on the page, organized by store

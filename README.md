@@ -4,7 +4,7 @@ This is a simple web app where you type in what you're looking for (like "best b
 
 Once you hit submit, an AI agent goes and searches those stores for you and brings back a list of matching products with the link, title, and rating, all grouped nicely by store.
 
-What it does
+What it does!
 
 . You type a search query and choose one or more stores
 . An AI agent searches those stores for matching products

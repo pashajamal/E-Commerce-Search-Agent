@@ -13,7 +13,6 @@ from langchain_openai import ChatOpenAI
 from langchain_mcp_adapters.tools import load_mcp_tools
 from langgraph.prebuilt import create_react_agent
 
-# ==========================================
 # 1. INITIALIZATION & CONFIGURATION
 
 # Load environment variables from a local .env file

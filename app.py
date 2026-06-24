@@ -44,7 +44,6 @@ PLATFORMS = ['Amazon', 'Best Buy', 'Ebay', 'Walmart', 'Target', 'Costco', 'Neweg
 
 # ==========================================
 # 2. PYDANTIC DATA VALIDATION MODELS
-# ===========
 
 class Hit(BaseModel):
     """Schema for an individual product discovery."""

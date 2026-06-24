@@ -66,7 +66,6 @@ class ProductSearchResponse(BaseModel):
 
 # ==========================================
 # 3. FLASK APP & ASYNC AI ENGINE
-# ==========================================
 
 app = Flask(__name__)
 app.secret_key = 'mysecretkey-not-for-prod'  # Required for flashing session alerts safely

@@ -64,8 +64,6 @@ class ProductSearchResponse(BaseModel):
     platforms: list[PlatformBlock] = Field(..., description='Aggregated list of all results grouped by platform')
 
 
-# ====================
-
 app = Flask(__name__)
 app.secret_key = 'mysecretkey-not-for-prod'  # Required for flashing session alerts safely
 

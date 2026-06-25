@@ -42,9 +42,6 @@ SYSTEM_PROMPT = (
 PLATFORMS = ['Amazon', 'Best Buy', 'Ebay', 'Walmart', 'Target', 'Costco', 'Newegg']
 
 
-
-
-
 class Hit(BaseModel):
     """Schema for an individual product discovery."""
     url: str = Field(..., description='The URL of the product that was found')

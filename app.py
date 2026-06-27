@@ -15,7 +15,7 @@ from langgraph.prebuilt import create_react_agent
 
 # 1. INITIALIZATION & CONFIGURATION
 
-# Load environment variables from a local .env file
+# Load environment variables from a local
 load_dotenv()
 
 # Initialize the OpenAI LLM (using GPT-4o for complex reasoning and schema adherence)

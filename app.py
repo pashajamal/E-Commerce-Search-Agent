@@ -14,8 +14,6 @@ from langchain_mcp_adapters.tools import load_mcp_tools
 from langgraph.prebuilt import create_react_agent
 
 # 1. INITIALIZATION & CONFIGURATION
-
-#
 load_dotenv()
 
 # Initialize the OpenAI LLM (using GPT-4o for complex reasoning and schema adherence)

@@ -59,7 +59,7 @@ class ProductSearchResponse(BaseModel):
 
 
 app = Flask(__name__)
-app.secret_key = 'mysecretkey-not-for-prod'  # Required for
+app.secret_key = 'mysecretkey-not-for-prod'
 
 
 async def run_agent(query, platforms):

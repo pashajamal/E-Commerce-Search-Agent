@@ -59,7 +59,7 @@ class ProductSearchResponse(BaseModel):
 
 
 app = Flask(__name__)
-app.secret_key = 'mysecretkey-not-for-prod'  # Required for flashing session alerts safely
+app.secret_key = 'mysecretkey-not-for-prod'  # Required for flashing session
 
 
 async def run_agent(query, platforms):

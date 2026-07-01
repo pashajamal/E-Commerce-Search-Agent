@@ -22,3 +22,11 @@ The agent adheres to a strict hierarchical workflow defined by the `SYSTEM_PROMP
 Before running the application, ensure you have the following installed:
 - Python 3.10+
 - Node.js & npm (required to execute the `@brightdata/mcp` server package via `npx`)
+
+ProductSearchResponse
+ └── platforms: List[PlatformBlock]
+      ├── platform: str (e.g., "Best Buy")
+      └── results: List[Hit]
+           ├── url: str
+           ├── title: str
+           └── rating: str
